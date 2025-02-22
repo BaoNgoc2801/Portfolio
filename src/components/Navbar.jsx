@@ -18,7 +18,7 @@ const Navbar = () => {
     };
 
     const [menu, setMenu] = useState(false);
-    const [active, setActive] = useState(""); // Lưu mục đang được chọn
+    const [active, setActive] = useState("");
 
 
     const items = [
@@ -35,7 +35,7 @@ const Navbar = () => {
                 initial={{opacity: 0, y: -100}}
                 animate={{opacity: 1, y: 0}}
                 transition={{duration: 0.5}}
-                className="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-50 py-6">
+                className="top-0 left-0 w-full z-50 bg-black bg-opacity-50 py-6">
                 <div className="container mx-auto hidden md:flex justify-between items-center ">
                 <div className="text-xl lg:text-2xl font-bold items-center gap-1">
                     <span className="text-white">FRONTEND</span>
